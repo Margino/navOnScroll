@@ -1,18 +1,28 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 80px;
+}
+
 body {
     margin: 0;
     font-size: 18px;
 }
 
-nav {
+.nav {
     background-color: rgb(35, 15, 15);
     padding: 5px 20px;
 }
 
-nav a {
+.nav.sticky {
+    top: 0;
+    position: sticky;
+}
+
+.nav a {
     color: white;
 }
 
-nav ul {
+.nav ul {
     display: flex;
     list-style: none;
     justify-content: right;
