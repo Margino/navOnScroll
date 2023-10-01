@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+
+nav {
+    background-color: rgb(35, 15, 15);
+    padding: 5px 20px;
+}
+
+nav a {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    gap: 20px;
+}
+
+main {
+    padding: 10px 20px;
+}
